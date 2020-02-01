@@ -1,0 +1,926 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\GamerCamp">
+      <UniqueIdentifier>{81cc8b48-3688-4688-af29-f1aebdbcac2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\GamerCamp\Collections">
+      <UniqueIdentifier>{0e12a05d-22b1-44ea-96d7-a3015a30ccf8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\GamerCamp\Core">
+      <UniqueIdentifier>{6d661b2d-a9b4-4198-bf7f-a404da3e57a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\GamerCamp\GameSpecific">
+      <UniqueIdentifier>{202d3a03-d50a-4b38-803e-c61775ab3954}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\GamerCamp\GCCocosInterface">
+      <UniqueIdentifier>{d08f4a1c-6e58-450f-babf-b4f976bbe0a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\GamerCamp\GCObject">
+      <UniqueIdentifier>{f67bb81e-4304-4866-ab55-4023c01eba1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\GamerCamp\Win32Input">
+      <UniqueIdentifier>{0f44a0f2-b07e-46d3-95be-e93d85af8987}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\GamerCamp\DebugTools">
+      <UniqueIdentifier>{8f836169-55b7-4709-9e11-c570622c69e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\GamerCamp\GameSpecific\Invaders">
+      <UniqueIdentifier>{13d02e95-8727-47e6-b93e-4d8d43bf9ab5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\GamerCamp\GameSpecific\Items">
+      <UniqueIdentifier>{98403ebe-f7d3-414c-bcdd-011560ed3ce8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\GamerCamp\GameSpecific\Player">
+      <UniqueIdentifier>{09e54667-f55a-4a91-850b-04b58911397c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\GamerCamp\GameSpecific\Platforms">
+      <UniqueIdentifier>{b08a1995-8545-4a2d-9387-7efa6dc69686}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\GamerCamp\GameController">
+      <UniqueIdentifier>{4ae41667-3df5-4816-b3c8-f6aa92570597}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\GamerCamp\GCCocosInterface\LevelLoader">
+      <UniqueIdentifier>{dc3fe9f1-371d-46a8-98ad-a1216f6a7390}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\ImpossibleRescue">
+      <UniqueIdentifier>{1e12ef0b-310f-4d24-9ec6-c7e5429baf4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\ImpossibleRescue\Enemies">
+      <UniqueIdentifier>{eaf5f011-dc94-4261-b9b2-4dc7480ef078}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\ImpossibleRescue\Environment">
+      <UniqueIdentifier>{96c5ede9-e316-41f9-84b2-b25b95797398}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\ImpossibleRescue\Gameplay">
+      <UniqueIdentifier>{3609acd5-6cb2-4587-adf4-69f3ac7f389c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\ImpossibleRescue\Levels">
+      <UniqueIdentifier>{8023a7d3-1e21-43c8-97c6-a48ae5df7620}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\ImpossibleRescue\Physics">
+      <UniqueIdentifier>{81b1f7a4-0ad5-4c1a-8ed3-eb26f611bb5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\ImpossibleRescue\Player">
+      <UniqueIdentifier>{dae1ef0f-8fe2-464b-b0fd-df559b062e4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\ImpossibleRescue\SHADOW">
+      <UniqueIdentifier>{8d48b8d1-5eb6-4039-9ab3-1eb2efabc14c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\ImpossibleRescue\UI">
+      <UniqueIdentifier>{818fc3e4-2fa7-45ba-bb4f-5bc69fa1553d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\ImpossibleRescue\Enemies\Turret">
+      <UniqueIdentifier>{b28a0899-ceeb-406c-abfa-86bffd944bcf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\ImpossibleRescue\Environment\Walls">
+      <UniqueIdentifier>{b3667ecd-d99e-4e1a-b20d-07a4f42763e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\ImpossibleRescue\Environment\Platforms">
+      <UniqueIdentifier>{e2211d25-2ce4-4afd-ae52-1d2c1f6ea53f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\ImpossibleRescue\Player\Movement">
+      <UniqueIdentifier>{bccf9435-992e-48ea-8c58-3d1a8ee49ade}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\ImpossibleRescue\Player\Equipment">
+      <UniqueIdentifier>{89912296-0f25-4161-a3f4-fd89dbfcc4db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\ImpossibleRescue\Player\Movement\Crouching">
+      <UniqueIdentifier>{71e25302-a611-4667-9743-aab32503e07f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\ImpossibleRescue\Player\Movement\Jumping">
+      <UniqueIdentifier>{ae59cdf6-6877-415d-a9a9-eb1ddf336c14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\ImpossibleRescue\Player\Movement\DoubleJumping">
+      <UniqueIdentifier>{a0670486-aa15-4b8e-9a41-2c345e19a739}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\ImpossibleRescue\Player\Movement\JumpingCrouch">
+      <UniqueIdentifier>{340349ba-b4c1-4e31-b036-7d4b60f93edc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\ImpossibleRescue\Player\Movement\JumpingWalk">
+      <UniqueIdentifier>{6b438095-c871-47ac-97ff-b6986abc4880}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\ImpossibleRescue\Player\Movement\Walking">
+      <UniqueIdentifier>{f64eabf1-36ac-46a7-90db-69f25a380b7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\ImpossibleRescue\Player\Equipment\Shooting">
+      <UniqueIdentifier>{82e202f6-d135-4a02-8187-8c5ba70582bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\ImpossibleRescue\Player\Equipment\Shooting\PrimaryShooting">
+      <UniqueIdentifier>{0282a143-4e64-472a-9705-e3b1decca100}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\ImpossibleRescue\Player\Equipment\Shooting\SecondaryShooting">
+      <UniqueIdentifier>{89c69c41-6329-4541-a8a3-6ce02e93bc44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\ImpossibleRescue\Utilities">
+      <UniqueIdentifier>{dab4f595-7fde-4529-8544-b38a1b8f1f87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\ImpossibleRescue\Player\Health">
+      <UniqueIdentifier>{29db2581-712f-4a91-8ba0-7b8061c5cb8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\ImpossibleRescue\Player\PlayerData">
+      <UniqueIdentifier>{41ccd75a-e0e9-43c5-b777-27030f82406f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\ImpossibleRescue\Events">
+      <UniqueIdentifier>{ee885293-0777-408c-ab42-a3b08845a20e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\ImpossibleRescue\Events\Mediator">
+      <UniqueIdentifier>{70dc3a47-a300-4e5f-b1e9-1388c154e232}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\ImpossibleRescue\Audio">
+      <UniqueIdentifier>{c85beedd-e895-4f56-8e19-2fa8284c6427}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\ImpossibleRescue\AssetManager">
+      <UniqueIdentifier>{cbe85d8a-946f-4b40-9fcb-9ae149887092}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\ImpossibleRescue\Events\EventTypes">
+      <UniqueIdentifier>{ccc8dbba-2b85-4275-b342-07c00290dbdf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\ImpossibleRescue\Levels\Level1">
+      <UniqueIdentifier>{28a43e72-af20-4b13-9028-209de09d051d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\ImpossibleRescue\Levels\Level2">
+      <UniqueIdentifier>{31ec87db-42ac-41d2-a9d6-315d379934cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\ImpossibleRescue\Levels\Level3">
+      <UniqueIdentifier>{cc7ff827-ffbe-436a-b18f-470b0aef7810}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\ImpossibleRescue\Levels\Level4">
+      <UniqueIdentifier>{3c3c2026-801b-4ef2-a4e6-0043c3bff749}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\ImpossibleRescue\Environment\Hazards">
+      <UniqueIdentifier>{95adc058-26a0-42db-b748-790fe854c8f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\ImpossibleRescue\Environment\LevelTransitionBorders">
+      <UniqueIdentifier>{02fa28ba-6c5c-4212-b2ac-18baadecf49c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\ImpossibleRescue\Player\PlayerData\LevelTransitionData">
+      <UniqueIdentifier>{924fdfd7-f3a0-4636-b769-1cc560420c4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\ImpossibleRescue\Cinematic">
+      <UniqueIdentifier>{c2ff20b6-ee9a-4335-ab5d-28a161c6d9bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\ImpossibleRescue\Environment\Door">
+      <UniqueIdentifier>{de4e27b3-1cd6-41d2-a098-b44c086dfae8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\ImpossibleRescue\Player\Movement\IdleStanding">
+      <UniqueIdentifier>{89edc529-f8f5-4270-804f-b9cf630ea332}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\ImpossibleRescue\Player\Movement\IdleCrouching">
+      <UniqueIdentifier>{90ee9be6-d82c-4118-a3a5-25d064562aaa}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GamerCamp\Debug\GLES-Render.cpp">
+      <Filter>Classes\GamerCamp\DebugTools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GamerCamp\GameSpecific\Invaders\GCObjGroupInvader.cpp">
+      <Filter>Classes\GamerCamp\GameSpecific\Invaders</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GamerCamp\GameSpecific\Invaders\GCObjInvader.cpp">
+      <Filter>Classes\GamerCamp\GameSpecific\Invaders</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GamerCamp\GameSpecific\Items\GCObjGroupItem.cpp">
+      <Filter>Classes\GamerCamp\GameSpecific\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GamerCamp\GameSpecific\Items\GCObjItem.cpp">
+      <Filter>Classes\GamerCamp\GameSpecific\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GamerCamp\GameSpecific\Platforms\GCObjGroupPlatform.cpp">
+      <Filter>Classes\GamerCamp\GameSpecific\Platforms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GamerCamp\GameSpecific\Platforms\GCObjPlatform.cpp">
+      <Filter>Classes\GamerCamp\GameSpecific\Platforms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GamerCamp\GameSpecific\Player\GCObjGroupProjectilePlayer.cpp">
+      <Filter>Classes\GamerCamp\GameSpecific\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GamerCamp\GameSpecific\Player\GCObjPlayer.cpp">
+      <Filter>Classes\GamerCamp\GameSpecific\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GamerCamp\GameSpecific\Player\GCObjProjectilePlayer.cpp">
+      <Filter>Classes\GamerCamp\GameSpecific\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GamerCamp\GameSpecific\GCGameLayerPlatformer.cpp">
+      <Filter>Classes\GamerCamp\GameSpecific</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GamerCamp\GCCocosInterface\GB2ShapeCache-x.cpp">
+      <Filter>Classes\GamerCamp\GCCocosInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GamerCamp\GCCocosInterface\GCCallFuncStatic.cpp">
+      <Filter>Classes\GamerCamp\GCCocosInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GamerCamp\GCCocosInterface\GCCocosHelpers.cpp">
+      <Filter>Classes\GamerCamp\GCCocosInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GamerCamp\GCCocosInterface\GCObjSprite.cpp">
+      <Filter>Classes\GamerCamp\GCCocosInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GamerCamp\GCCocosInterface\GCObjSpritePhysics.cpp">
+      <Filter>Classes\GamerCamp\GCCocosInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GamerCamp\GCCocosInterface\GCObjTileLayer.cpp">
+      <Filter>Classes\GamerCamp\GCCocosInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GamerCamp\GCCocosInterface\IGCGameLayer.cpp">
+      <Filter>Classes\GamerCamp\GCCocosInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GamerCamp\GCObject\GCObject.cpp">
+      <Filter>Classes\GamerCamp\GCObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GamerCamp\GCObject\GCObjectGroup.cpp">
+      <Filter>Classes\GamerCamp\GCObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GamerCamp\GCObject\GCObjectManager.cpp">
+      <Filter>Classes\GamerCamp\GCObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GamerCamp\GCObject\GCObjGroupDefault.cpp">
+      <Filter>Classes\GamerCamp\GCObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GamerCamp\Win32Input\GCKeyboardManager.cpp">
+      <Filter>Classes\GamerCamp\Win32Input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GamerCamp\Win32Input\CInputKeyboard.cpp">
+      <Filter>Classes\GamerCamp\Win32Input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GamerCamp\GameController\GCControllerManager.cpp">
+      <Filter>Classes\GamerCamp\GameController</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GamerCamp\GameController\GCController.cpp">
+      <Filter>Classes\GamerCamp\GameController</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GamerCamp\GCCocosInterface\GCCollisionManager.cpp">
+      <Filter>Classes\GamerCamp\GCCocosInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GamerCamp\GCCocosInterface\GCFactory_ObjSpritePhysics.cpp">
+      <Filter>Classes\GamerCamp\GCCocosInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GamerCamp\GCCocosInterface\LevelLoader\GCLevelLoader_Ogmo.cpp">
+      <Filter>Classes\GamerCamp\GCCocosInterface\LevelLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ImpossibleRescue\Enemies\Turret\CTurret.cpp">
+      <Filter>Classes\ImpossibleRescue\Enemies\Turret</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ImpossibleRescue\Enemies\Turret\CTurretProjectile.cpp">
+      <Filter>Classes\ImpossibleRescue\Enemies\Turret</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ImpossibleRescue\Enemies\Turret\CTurretProjectileGroup.cpp">
+      <Filter>Classes\ImpossibleRescue\Enemies\Turret</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ImpossibleRescue\Environment\Platforms\CStandardPlatform5m.cpp">
+      <Filter>Classes\ImpossibleRescue\Environment\Platforms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ImpossibleRescue\Environment\Platforms\CWallPlatform3m.cpp">
+      <Filter>Classes\ImpossibleRescue\Environment\Platforms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ImpossibleRescue\Environment\Platforms\CWallPlatform4m.cpp">
+      <Filter>Classes\ImpossibleRescue\Environment\Platforms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ImpossibleRescue\Environment\Platforms\CWallPlatform5m.cpp">
+      <Filter>Classes\ImpossibleRescue\Environment\Platforms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ImpossibleRescue\Environment\Walls\CWall5M.cpp">
+      <Filter>Classes\ImpossibleRescue\Environment\Walls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ImpossibleRescue\Gameplay\CHackingStation.cpp">
+      <Filter>Classes\ImpossibleRescue\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ImpossibleRescue\Gameplay\CLevelTimer.cpp">
+      <Filter>Classes\ImpossibleRescue\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ImpossibleRescue\Levels\CBaseLevel.cpp">
+      <Filter>Classes\ImpossibleRescue\Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ImpossibleRescue\Levels\CEndScreen.cpp">
+      <Filter>Classes\ImpossibleRescue\Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ImpossibleRescue\Levels\CMenuScene.cpp">
+      <Filter>Classes\ImpossibleRescue\Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ImpossibleRescue\Levels\CTemplateLevel.cpp">
+      <Filter>Classes\ImpossibleRescue\Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ImpossibleRescue\UI\CButton.cpp">
+      <Filter>Classes\ImpossibleRescue\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ImpossibleRescue\SHADOW\CShadow.cpp">
+      <Filter>Classes\ImpossibleRescue\SHADOW</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ImpossibleRescue\Player\CPlayer.cpp">
+      <Filter>Classes\ImpossibleRescue\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ImpossibleRescue\Physics\SPhysicsObjectUserData.cpp">
+      <Filter>Classes\ImpossibleRescue\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ImpossibleRescue\Player\Equipment\CPlayerEquipmentStates.cpp">
+      <Filter>Classes\ImpossibleRescue\Player\Equipment</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ImpossibleRescue\Player\Equipment\Shooting\SecondaryShooting\CPlayerSecondaryProjectile.cpp">
+      <Filter>Classes\ImpossibleRescue\Player\Equipment\Shooting\SecondaryShooting</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ImpossibleRescue\Player\Equipment\Shooting\SecondaryShooting\CPlayerSecondaryProjectileGroup.cpp">
+      <Filter>Classes\ImpossibleRescue\Player\Equipment\Shooting\SecondaryShooting</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ImpossibleRescue\Player\Equipment\Shooting\SecondaryShooting\CSecondaryShootingPlayerEquipmentState.cpp">
+      <Filter>Classes\ImpossibleRescue\Player\Equipment\Shooting\SecondaryShooting</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ImpossibleRescue\Player\Equipment\Shooting\PrimaryShooting\CPlayerPrimaryProjectile.cpp">
+      <Filter>Classes\ImpossibleRescue\Player\Equipment\Shooting\PrimaryShooting</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ImpossibleRescue\Player\Equipment\Shooting\PrimaryShooting\CPlayerPrimaryProjectileGroup.cpp">
+      <Filter>Classes\ImpossibleRescue\Player\Equipment\Shooting\PrimaryShooting</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ImpossibleRescue\Player\Equipment\Shooting\PrimaryShooting\CPrimaryShootingPlayerEquipmentState.cpp">
+      <Filter>Classes\ImpossibleRescue\Player\Equipment\Shooting\PrimaryShooting</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ImpossibleRescue\Player\Movement\DoubleJumping\CDoubleJumpingPlayerMovementState.cpp">
+      <Filter>Classes\ImpossibleRescue\Player\Movement\DoubleJumping</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ImpossibleRescue\Player\Movement\Jumping\CJumpingPlayerMovementState.cpp">
+      <Filter>Classes\ImpossibleRescue\Player\Movement\Jumping</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ImpossibleRescue\Player\Movement\JumpingCrouch\CJumpingCrouchPlayerMovementState.cpp">
+      <Filter>Classes\ImpossibleRescue\Player\Movement\JumpingCrouch</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ImpossibleRescue\Player\Movement\JumpingWalk\CJumpingWalkPlayerMovementState.cpp">
+      <Filter>Classes\ImpossibleRescue\Player\Movement\JumpingWalk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ImpossibleRescue\Player\Movement\Walking\CWalkingPlayerMovementState.cpp">
+      <Filter>Classes\ImpossibleRescue\Player\Movement\Walking</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ImpossibleRescue\Utilities\CLabelHelper.cpp">
+      <Filter>Classes\ImpossibleRescue\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ImpossibleRescue\Utilities\CTimerHelper.cpp">
+      <Filter>Classes\ImpossibleRescue\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ImpossibleRescue\Environment\Platforms\CMovingPlatform.cpp">
+      <Filter>Classes\ImpossibleRescue\Environment\Platforms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ImpossibleRescue\Player\PlayerData\CPlayerDataManager.cpp">
+      <Filter>Classes\ImpossibleRescue\Player\PlayerData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ImpossibleRescue\Player\PlayerData\CPlayerData.cpp">
+      <Filter>Classes\ImpossibleRescue\Player\PlayerData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ImpossibleRescue\Player\Health\CPlayerHealth.cpp">
+      <Filter>Classes\ImpossibleRescue\Player\Health</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ImpossibleRescue\Audio\CAudioSystem.cpp">
+      <Filter>Classes\ImpossibleRescue\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ImpossibleRescue\Audio\CSoundEffect.cpp">
+      <Filter>Classes\ImpossibleRescue\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ImpossibleRescue\AssetManager\CAssetManager.cpp">
+      <Filter>Classes\ImpossibleRescue\AssetManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ImpossibleRescue\Environment\Platforms\CMovingPlatform3m.cpp">
+      <Filter>Classes\ImpossibleRescue\Environment\Platforms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ImpossibleRescue\Environment\Walls\CCeiling.cpp">
+      <Filter>Classes\ImpossibleRescue\Environment\Walls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ImpossibleRescue\Environment\Walls\CFloor.cpp">
+      <Filter>Classes\ImpossibleRescue\Environment\Walls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ImpossibleRescue\Environment\Walls\CLeftWall.cpp">
+      <Filter>Classes\ImpossibleRescue\Environment\Walls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ImpossibleRescue\Environment\Walls\CRightWall.cpp">
+      <Filter>Classes\ImpossibleRescue\Environment\Walls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ImpossibleRescue\Environment\CContainersAsset.cpp">
+      <Filter>Classes\ImpossibleRescue\Environment</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ImpossibleRescue\Events\Mediator\CActionOnRelease.cpp">
+      <Filter>Classes\ImpossibleRescue\Events\Mediator</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ImpossibleRescue\Events\Mediator\CEventMediator.cpp">
+      <Filter>Classes\ImpossibleRescue\Events\Mediator</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ImpossibleRescue\Audio\CExperimentalAudioSystem.cpp">
+      <Filter>Classes\ImpossibleRescue\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ImpossibleRescue\Levels\Level1\CLevel1Area1.cpp">
+      <Filter>Classes\ImpossibleRescue\Levels\Level1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ImpossibleRescue\Levels\Level1\CLevel1Area2.cpp">
+      <Filter>Classes\ImpossibleRescue\Levels\Level1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ImpossibleRescue\Levels\Level4\CLevel4Area1.cpp">
+      <Filter>Classes\ImpossibleRescue\Levels\Level4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ImpossibleRescue\Levels\Level4\CLevel4Area2.cpp">
+      <Filter>Classes\ImpossibleRescue\Levels\Level4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ImpossibleRescue\Environment\Hazards\CHazardCables3m.cpp">
+      <Filter>Classes\ImpossibleRescue\Environment\Hazards</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ImpossibleRescue\Environment\Hazards\CHazardCables2m.cpp">
+      <Filter>Classes\ImpossibleRescue\Environment\Hazards</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ImpossibleRescue\UI\CHealth_UI.cpp">
+      <Filter>Classes\ImpossibleRescue\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ImpossibleRescue\Environment\LevelTransitionBorders\CVerticalLevelTransitionBorder.cpp">
+      <Filter>Classes\ImpossibleRescue\Environment\LevelTransitionBorders</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ImpossibleRescue\Environment\LevelTransitionBorders\CHorizontalLevelTransitionBorder.cpp">
+      <Filter>Classes\ImpossibleRescue\Environment\LevelTransitionBorders</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ImpossibleRescue\Player\PlayerData\LevelTransitionData\CPlayerLevelTransitionData.cpp">
+      <Filter>Classes\ImpossibleRescue\Player\PlayerData\LevelTransitionData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ImpossibleRescue\Levels\Level2\CLevel2Area1.cpp">
+      <Filter>Classes\ImpossibleRescue\Levels\Level2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ImpossibleRescue\Levels\Level2\CLevel2Area2.cpp">
+      <Filter>Classes\ImpossibleRescue\Levels\Level2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ImpossibleRescue\Levels\Level3\CLevel3Area1.cpp">
+      <Filter>Classes\ImpossibleRescue\Levels\Level3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ImpossibleRescue\Levels\Level3\CLevel3Area2.cpp">
+      <Filter>Classes\ImpossibleRescue\Levels\Level3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ImpossibleRescue\Environment\Platforms\CWallPlatform3mLeft.cpp">
+      <Filter>Classes\ImpossibleRescue\Environment\Platforms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ImpossibleRescue\Environment\Platforms\CWallPlatform3mRight.cpp">
+      <Filter>Classes\ImpossibleRescue\Environment\Platforms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ImpossibleRescue\Environment\Platforms\CWallPlatform4mLeft.cpp">
+      <Filter>Classes\ImpossibleRescue\Environment\Platforms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ImpossibleRescue\Environment\Platforms\CWallPlatform4mRight.cpp">
+      <Filter>Classes\ImpossibleRescue\Environment\Platforms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ImpossibleRescue\Environment\Platforms\CWallPlatform5mLeft.cpp">
+      <Filter>Classes\ImpossibleRescue\Environment\Platforms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ImpossibleRescue\Environment\Platforms\CWallPlatform5mMid.cpp">
+      <Filter>Classes\ImpossibleRescue\Environment\Platforms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ImpossibleRescue\Environment\Platforms\CWallPlatform5mRight.cpp">
+      <Filter>Classes\ImpossibleRescue\Environment\Platforms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ImpossibleRescue\Cinematic\CCinematicScene.cpp">
+      <Filter>Classes\ImpossibleRescue\Cinematic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ImpossibleRescue\UI\TickerText.cpp">
+      <Filter>Classes\ImpossibleRescue\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ImpossibleRescue\Environment\Door\CDoor.cpp">
+      <Filter>Classes\ImpossibleRescue\Environment\Door</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ImpossibleRescue\Environment\Hazards\CVerticalHazard.cpp">
+      <Filter>Classes\ImpossibleRescue\Environment\Hazards</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ImpossibleRescue\Player\Movement\IdleStanding\CIdleStandingPlayerMovementState.cpp">
+      <Filter>Classes\ImpossibleRescue\Player\Movement\IdleStanding</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ImpossibleRescue\Player\Movement\IdleCrouching\CIdleCrouchingPlayerMovementState.cpp">
+      <Filter>Classes\ImpossibleRescue\Player\Movement\IdleCrouching</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ImpossibleRescue\Player\Movement\Crouching\CCrouchingPlayerMovementState.cpp">
+      <Filter>Classes\ImpossibleRescue\Player\Movement\Crouching</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ImpossibleRescue\Player\Movement\CPlayerMovementState.cpp">
+      <Filter>Classes\ImpossibleRescue\Player\Movement</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ImpossibleRescue\Cinematic\CTitleScreen.cpp">
+      <Filter>Classes\ImpossibleRescue\Cinematic</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppMacros.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GamerCamp\Collections\NoAllocList.h">
+      <Filter>Classes\GamerCamp\Collections</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GamerCamp\Core\GCTypes.h">
+      <Filter>Classes\GamerCamp\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GamerCamp\Debug\GLES-Render.h">
+      <Filter>Classes\GamerCamp\DebugTools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GamerCamp\GameSpecific\Invaders\GCObjGroupInvader.h">
+      <Filter>Classes\GamerCamp\GameSpecific\Invaders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GamerCamp\GameSpecific\Invaders\GCObjInvader.h">
+      <Filter>Classes\GamerCamp\GameSpecific\Invaders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GamerCamp\GameSpecific\Items\GCObjGroupItem.h">
+      <Filter>Classes\GamerCamp\GameSpecific\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GamerCamp\GameSpecific\Items\GCObjItem.h">
+      <Filter>Classes\GamerCamp\GameSpecific\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GamerCamp\GameSpecific\Platforms\GCObjGroupPlatform.h">
+      <Filter>Classes\GamerCamp\GameSpecific\Platforms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GamerCamp\GameSpecific\Platforms\GCObjPlatform.h">
+      <Filter>Classes\GamerCamp\GameSpecific\Platforms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GamerCamp\GameSpecific\Player\GCObjGroupProjectilePlayer.h">
+      <Filter>Classes\GamerCamp\GameSpecific\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GamerCamp\GameSpecific\Player\GCObjPlayer.h">
+      <Filter>Classes\GamerCamp\GameSpecific\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GamerCamp\GameSpecific\Player\GCObjProjectilePlayer.h">
+      <Filter>Classes\GamerCamp\GameSpecific\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GamerCamp\GameSpecific\GCGameLayerPlatformer.h">
+      <Filter>Classes\GamerCamp\GameSpecific</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GamerCamp\GCCocosInterface\GB2ShapeCache-x.h">
+      <Filter>Classes\GamerCamp\GCCocosInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GamerCamp\GCCocosInterface\GCCallFuncStatic.h">
+      <Filter>Classes\GamerCamp\GCCocosInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GamerCamp\GCCocosInterface\GCCocosHelpers.h">
+      <Filter>Classes\GamerCamp\GCCocosInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GamerCamp\GCCocosInterface\GCObjSprite.h">
+      <Filter>Classes\GamerCamp\GCCocosInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GamerCamp\GCCocosInterface\GCObjSpritePhysics.h">
+      <Filter>Classes\GamerCamp\GCCocosInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GamerCamp\GCCocosInterface\GCObjTileLayer.h">
+      <Filter>Classes\GamerCamp\GCCocosInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GamerCamp\GCCocosInterface\IGCGameLayer.h">
+      <Filter>Classes\GamerCamp\GCCocosInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GamerCamp\GCObject\GCObject.h">
+      <Filter>Classes\GamerCamp\GCObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GamerCamp\GCObject\GCObjectGroup.h">
+      <Filter>Classes\GamerCamp\GCObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GamerCamp\GCObject\GCObjectManager.h">
+      <Filter>Classes\GamerCamp\GCObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GamerCamp\GCObject\GCObjGroupDefault.h">
+      <Filter>Classes\GamerCamp\GCObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GamerCamp\Win32Input\GCKeyboardManager.h">
+      <Filter>Classes\GamerCamp\Win32Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GamerCamp\GCCocosInterface\SGCFactoryCreationParams.h">
+      <Filter>Classes\GamerCamp\GCCocosInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GamerCamp\Win32Input\CInputKeyboard.h">
+      <Filter>Classes\GamerCamp\Win32Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GamerCamp\GameController\GCControllerManager.h">
+      <Filter>Classes\GamerCamp\GameController</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GamerCamp\GameController\GCController.h">
+      <Filter>Classes\GamerCamp\GameController</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GamerCamp\GCCocosInterface\GCCollisionManager.h">
+      <Filter>Classes\GamerCamp\GCCocosInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GamerCamp\GCCocosInterface\GCFactory_ObjSpritePhysics.h">
+      <Filter>Classes\GamerCamp\GCCocosInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GamerCamp\GCCocosInterface\LevelLoader\GCLevelLoader_Ogmo.h">
+      <Filter>Classes\GamerCamp\GCCocosInterface\LevelLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ImpossibleRescue\Enemies\Turret\CTurret.h">
+      <Filter>Classes\ImpossibleRescue\Enemies\Turret</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ImpossibleRescue\Enemies\Turret\CTurretProjectile.h">
+      <Filter>Classes\ImpossibleRescue\Enemies\Turret</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ImpossibleRescue\Enemies\Turret\CTurretProjectileGroup.h">
+      <Filter>Classes\ImpossibleRescue\Enemies\Turret</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ImpossibleRescue\Environment\Platforms\CStandardPlatform5m.h">
+      <Filter>Classes\ImpossibleRescue\Environment\Platforms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ImpossibleRescue\Environment\Platforms\CWallPlatform3m.h">
+      <Filter>Classes\ImpossibleRescue\Environment\Platforms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ImpossibleRescue\Environment\Platforms\CWallPlatform4m.h">
+      <Filter>Classes\ImpossibleRescue\Environment\Platforms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ImpossibleRescue\Environment\Platforms\CWallPlatform5m.h">
+      <Filter>Classes\ImpossibleRescue\Environment\Platforms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ImpossibleRescue\Environment\Walls\CWall5M.h">
+      <Filter>Classes\ImpossibleRescue\Environment\Walls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ImpossibleRescue\Gameplay\CHackingStation.h">
+      <Filter>Classes\ImpossibleRescue\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ImpossibleRescue\Gameplay\CLevelTimer.h">
+      <Filter>Classes\ImpossibleRescue\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ImpossibleRescue\Gameplay\IHackable.h">
+      <Filter>Classes\ImpossibleRescue\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ImpossibleRescue\Levels\CBaseLevel.h">
+      <Filter>Classes\ImpossibleRescue\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ImpossibleRescue\Levels\CEndScreen.h">
+      <Filter>Classes\ImpossibleRescue\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ImpossibleRescue\Levels\CMenuScene.h">
+      <Filter>Classes\ImpossibleRescue\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ImpossibleRescue\Levels\CTemplateLevel.h">
+      <Filter>Classes\ImpossibleRescue\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ImpossibleRescue\UI\CButton.h">
+      <Filter>Classes\ImpossibleRescue\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ImpossibleRescue\SHADOW\CShadow.h">
+      <Filter>Classes\ImpossibleRescue\SHADOW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ImpossibleRescue\Player\CPlayer.h">
+      <Filter>Classes\ImpossibleRescue\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ImpossibleRescue\Player\EPlayerActions.h">
+      <Filter>Classes\ImpossibleRescue\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ImpossibleRescue\Physics\SPhysicsObjectUserData.h">
+      <Filter>Classes\ImpossibleRescue\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ImpossibleRescue\Player\Movement\CPlayerMovementState.h">
+      <Filter>Classes\ImpossibleRescue\Player\Movement</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ImpossibleRescue\Player\Movement\CPlayerMovementStates.h">
+      <Filter>Classes\ImpossibleRescue\Player\Movement</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ImpossibleRescue\Player\Equipment\CPlayerEquipmentState.h">
+      <Filter>Classes\ImpossibleRescue\Player\Equipment</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ImpossibleRescue\Player\Equipment\CPlayerEquipmentStates.h">
+      <Filter>Classes\ImpossibleRescue\Player\Equipment</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ImpossibleRescue\Player\Equipment\Shooting\SecondaryShooting\CPlayerSecondaryProjectile.h">
+      <Filter>Classes\ImpossibleRescue\Player\Equipment\Shooting\SecondaryShooting</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ImpossibleRescue\Player\Equipment\Shooting\SecondaryShooting\CPlayerSecondaryProjectileGroup.h">
+      <Filter>Classes\ImpossibleRescue\Player\Equipment\Shooting\SecondaryShooting</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ImpossibleRescue\Player\Equipment\Shooting\SecondaryShooting\CSecondaryShootingPlayerEquipmentState.h">
+      <Filter>Classes\ImpossibleRescue\Player\Equipment\Shooting\SecondaryShooting</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ImpossibleRescue\Player\Equipment\Shooting\PrimaryShooting\CPlayerPrimaryProjectile.h">
+      <Filter>Classes\ImpossibleRescue\Player\Equipment\Shooting\PrimaryShooting</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ImpossibleRescue\Player\Equipment\Shooting\PrimaryShooting\CPlayerPrimaryProjectileGroup.h">
+      <Filter>Classes\ImpossibleRescue\Player\Equipment\Shooting\PrimaryShooting</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ImpossibleRescue\Player\Equipment\Shooting\PrimaryShooting\CPrimaryShootingPlayerEquipmentState.h">
+      <Filter>Classes\ImpossibleRescue\Player\Equipment\Shooting\PrimaryShooting</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ImpossibleRescue\Player\Movement\Crouching\CCrouchingPlayerMovementState.h">
+      <Filter>Classes\ImpossibleRescue\Player\Movement\Crouching</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ImpossibleRescue\Player\Movement\DoubleJumping\CDoubleJumpingPlayerMovementState.h">
+      <Filter>Classes\ImpossibleRescue\Player\Movement\DoubleJumping</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ImpossibleRescue\Player\Movement\Jumping\CJumpingPlayerMovementState.h">
+      <Filter>Classes\ImpossibleRescue\Player\Movement\Jumping</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ImpossibleRescue\Player\Movement\JumpingCrouch\CJumpingCrouchPlayerMovementState.h">
+      <Filter>Classes\ImpossibleRescue\Player\Movement\JumpingCrouch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ImpossibleRescue\Player\Movement\JumpingWalk\CJumpingWalkPlayerMovementState.h">
+      <Filter>Classes\ImpossibleRescue\Player\Movement\JumpingWalk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ImpossibleRescue\Player\Movement\Walking\CWalkingPlayerMovementState.h">
+      <Filter>Classes\ImpossibleRescue\Player\Movement\Walking</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ImpossibleRescue\Utilities\CLabelHelper.h">
+      <Filter>Classes\ImpossibleRescue\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ImpossibleRescue\Utilities\CTimerHelper.h">
+      <Filter>Classes\ImpossibleRescue\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ImpossibleRescue\Environment\Platforms\CMovingPlatform.h">
+      <Filter>Classes\ImpossibleRescue\Environment\Platforms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ImpossibleRescue\Player\PlayerData\CPlayerDataManager.h">
+      <Filter>Classes\ImpossibleRescue\Player\PlayerData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ImpossibleRescue\Player\PlayerData\CPlayerData.h">
+      <Filter>Classes\ImpossibleRescue\Player\PlayerData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ImpossibleRescue\Player\Health\CPlayerHealth.h">
+      <Filter>Classes\ImpossibleRescue\Player\Health</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ImpossibleRescue\Utilities\CHelperFunctions.h">
+      <Filter>Classes\ImpossibleRescue\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ImpossibleRescue\Audio\ISoundEffect.h">
+      <Filter>Classes\ImpossibleRescue\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ImpossibleRescue\Audio\CAudioSystem.h">
+      <Filter>Classes\ImpossibleRescue\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ImpossibleRescue\Audio\IAudioSystem.h">
+      <Filter>Classes\ImpossibleRescue\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ImpossibleRescue\Audio\ESoundFX.h">
+      <Filter>Classes\ImpossibleRescue\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ImpossibleRescue\Audio\CSoundEffect.h">
+      <Filter>Classes\ImpossibleRescue\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ImpossibleRescue\AssetManager\IAssetManager.h">
+      <Filter>Classes\ImpossibleRescue\AssetManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ImpossibleRescue\AssetManager\CAssetManager.h">
+      <Filter>Classes\ImpossibleRescue\AssetManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ImpossibleRescue\Environment\Platforms\CMovingPlatform3m.h">
+      <Filter>Classes\ImpossibleRescue\Environment\Platforms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ImpossibleRescue\Environment\Walls\CCeiling.h">
+      <Filter>Classes\ImpossibleRescue\Environment\Walls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ImpossibleRescue\Environment\Walls\CFloor.h">
+      <Filter>Classes\ImpossibleRescue\Environment\Walls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ImpossibleRescue\Environment\Walls\CLeftWall.h">
+      <Filter>Classes\ImpossibleRescue\Environment\Walls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ImpossibleRescue\Environment\Walls\CRightWall.h">
+      <Filter>Classes\ImpossibleRescue\Environment\Walls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ImpossibleRescue\Environment\CContainersAsset.h">
+      <Filter>Classes\ImpossibleRescue\Environment</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ImpossibleRescue\Events\Mediator\CActionOnRelease.h">
+      <Filter>Classes\ImpossibleRescue\Events\Mediator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ImpossibleRescue\Events\Mediator\CEventMediator.h">
+      <Filter>Classes\ImpossibleRescue\Events\Mediator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ImpossibleRescue\Events\Mediator\IEventMediator.h">
+      <Filter>Classes\ImpossibleRescue\Events\Mediator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ImpossibleRescue\Events\Mediator\IEventPublisher.h">
+      <Filter>Classes\ImpossibleRescue\Events\Mediator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ImpossibleRescue\Events\Mediator\IEventSource.h">
+      <Filter>Classes\ImpossibleRescue\Events\Mediator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ImpossibleRescue\Events\Mediator\ITReceiveEvents.h">
+      <Filter>Classes\ImpossibleRescue\Events\Mediator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ImpossibleRescue\Events\Mediator\TNotificationChannel.h">
+      <Filter>Classes\ImpossibleRescue\Events\Mediator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ImpossibleRescue\Events\EventTypes\CGamePausedEvent.h">
+      <Filter>Classes\ImpossibleRescue\Events\EventTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ImpossibleRescue\Events\EventTypes\CGameResumedEvent.h">
+      <Filter>Classes\ImpossibleRescue\Events\EventTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ImpossibleRescue\Events\EventTypes\CStationHackedEvent.h">
+      <Filter>Classes\ImpossibleRescue\Events\EventTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ImpossibleRescue\Audio\CExperimentalAudioSystem.h">
+      <Filter>Classes\ImpossibleRescue\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ImpossibleRescue\Levels\Level1\CLevel1Area1.h">
+      <Filter>Classes\ImpossibleRescue\Levels\Level1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ImpossibleRescue\Levels\ELevelTransitionType.h">
+      <Filter>Classes\ImpossibleRescue\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ImpossibleRescue\Events\EventTypes\CLevelTransitionEvent.h">
+      <Filter>Classes\ImpossibleRescue\Events\EventTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ImpossibleRescue\Levels\Level1\CLevel1Area2.h">
+      <Filter>Classes\ImpossibleRescue\Levels\Level1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ImpossibleRescue\Levels\Level4\CLevel4Area1.h">
+      <Filter>Classes\ImpossibleRescue\Levels\Level4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ImpossibleRescue\Levels\Level4\CLevel4Area2.h">
+      <Filter>Classes\ImpossibleRescue\Levels\Level4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ImpossibleRescue\Environment\Hazards\CHazardCables3m.h">
+      <Filter>Classes\ImpossibleRescue\Environment\Hazards</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ImpossibleRescue\Environment\Hazards\CHazardCables2m.h">
+      <Filter>Classes\ImpossibleRescue\Environment\Hazards</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ImpossibleRescue\Events\EventTypes\CPlayerHasDiedEvent.h">
+      <Filter>Classes\ImpossibleRescue\Events\EventTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ImpossibleRescue\UI\CHealth_UI.h">
+      <Filter>Classes\ImpossibleRescue\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ImpossibleRescue\Environment\LevelTransitionBorders\CVerticalLevelTransitionBorder.h">
+      <Filter>Classes\ImpossibleRescue\Environment\LevelTransitionBorders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ImpossibleRescue\Environment\LevelTransitionBorders\CHorizontalLevelTransitionBorder.h">
+      <Filter>Classes\ImpossibleRescue\Environment\LevelTransitionBorders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ImpossibleRescue\Player\PlayerData\LevelTransitionData\CPlayerLevelTransitionData.h">
+      <Filter>Classes\ImpossibleRescue\Player\PlayerData\LevelTransitionData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ImpossibleRescue\Levels\Level2\CLevel2Area1.h">
+      <Filter>Classes\ImpossibleRescue\Levels\Level2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ImpossibleRescue\Levels\Level2\CLevel2Area2.h">
+      <Filter>Classes\ImpossibleRescue\Levels\Level2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ImpossibleRescue\Levels\Level3\CLevel3Area1.h">
+      <Filter>Classes\ImpossibleRescue\Levels\Level3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ImpossibleRescue\Levels\Level3\CLevel3Area2.h">
+      <Filter>Classes\ImpossibleRescue\Levels\Level3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ImpossibleRescue\Environment\Platforms\CWallPlatform3mLeft.h">
+      <Filter>Classes\ImpossibleRescue\Environment\Platforms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ImpossibleRescue\Environment\Platforms\CWallPlatform3mRight.h">
+      <Filter>Classes\ImpossibleRescue\Environment\Platforms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ImpossibleRescue\Environment\Platforms\CWallPlatform4mLeft.h">
+      <Filter>Classes\ImpossibleRescue\Environment\Platforms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ImpossibleRescue\Environment\Platforms\CWallPlatform4mRight.h">
+      <Filter>Classes\ImpossibleRescue\Environment\Platforms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ImpossibleRescue\Environment\Platforms\CWallPlatform5mLeft.h">
+      <Filter>Classes\ImpossibleRescue\Environment\Platforms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ImpossibleRescue\Environment\Platforms\CWallPlatform5mMid.h">
+      <Filter>Classes\ImpossibleRescue\Environment\Platforms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ImpossibleRescue\Environment\Platforms\CWallPlatform5mRight.h">
+      <Filter>Classes\ImpossibleRescue\Environment\Platforms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ImpossibleRescue\Environment\Hazards\CVerticalHazard.h">
+      <Filter>Classes\ImpossibleRescue\Environment\Hazards</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ImpossibleRescue\Cinematic\CCinematicScene.h">
+      <Filter>Classes\ImpossibleRescue\Cinematic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ImpossibleRescue\UI\TickerText.h">
+      <Filter>Classes\ImpossibleRescue\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ImpossibleRescue\Player\EPlayerCutsceneActions.h">
+      <Filter>Classes\ImpossibleRescue\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ImpossibleRescue\Environment\Door\CDoor.h">
+      <Filter>Classes\ImpossibleRescue\Environment\Door</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ImpossibleRescue\Player\Movement\IdleStanding\CIdleStandingPlayerMovementState.h">
+      <Filter>Classes\ImpossibleRescue\Player\Movement\IdleStanding</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ImpossibleRescue\Player\Movement\IdleCrouching\CIdleCrouchingPlayerMovementState.h">
+      <Filter>Classes\ImpossibleRescue\Player\Movement\IdleCrouching</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ImpossibleRescue\UI\EPlayerMenuActions.h">
+      <Filter>Classes\ImpossibleRescue\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ImpossibleRescue\Events\EventTypes\CPlayBackgroundMusicEvent.h">
+      <Filter>Classes\ImpossibleRescue\Events\EventTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ImpossibleRescue\Cinematic\CTitleScreen.h">
+      <Filter>Classes\ImpossibleRescue\Cinematic</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

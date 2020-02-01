@@ -1,0 +1,420 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{76A39BB2-9B84-4C65-98A5-654D86B86F2A}</ProjectGuid>
+    <RootNamespace>test_win32</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '12.0'">v120</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '12.0' and exists('$(MSBuildProgramFiles32)\Microsoft SDKs\Windows\v7.1A')">v120_xp</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '14.0'">v140</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '14.0' and exists('$(MSBuildProgramFiles32)\Microsoft SDKs\Windows\v7.1A')">v140_xp</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0' and exists('$(MSBuildProgramFiles32)\Microsoft SDKs\Windows\v7.1A')">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '12.0'">v120</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '12.0' and exists('$(MSBuildProgramFiles32)\Microsoft SDKs\Windows\v7.1A')">v120_xp</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '14.0'">v140</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '14.0' and exists('$(MSBuildProgramFiles32)\Microsoft SDKs\Windows\v7.1A')">v140_xp</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0' and exists('$(MSBuildProgramFiles32)\Microsoft SDKs\Windows\v7.1A')">v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\cocos2d\cocos\2d\cocos2dx.props" />
+    <Import Project="..\cocos2d\cocos\2d\cocos2d_headers.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\cocos2d\cocos\2d\cocos2dx.props" />
+    <Import Project="..\cocos2d\cocos\2d\cocos2d_headers.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>12.0.21005.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)$(Configuration).win32\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration).win32\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)$(Configuration).win32\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration).win32\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LibraryPath>$(MSBuildProgramFiles32)\Microsoft SDKs\Windows\v7.1A\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LibraryPath>$(MSBuildProgramFiles32)\Microsoft SDKs\Windows\v7.1A\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>$(EngineRoot);$(EngineRoot)external;$(EngineRoot)cocos\audio\include;$(EngineRoot)external\chipmunk\include\chipmunk;$(EngineRoot)extensions;..\Classes;..;%(AdditionalIncludeDirectories);$(_COCOS_HEADER_WIN32_BEGIN);$(_COCOS_HEADER_WIN32_END)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USE_MATH_DEFINES;GL_GLEXT_PROTOTYPES;CC_ENABLE_CHIPMUNK_INTEGRATION=1;COCOS2D_DEBUG=1;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <DisableSpecificWarnings>4267;4251;4244;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>libcurl.lib;%(AdditionalDependencies);$(_COCOS_LIB_WIN32_BEGIN);$(_COCOS_LIB_WIN32_END)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(ProjectName).exe</OutputFile>
+      <AdditionalLibraryDirectories>$(OutDir);%(AdditionalLibraryDirectories);$(_COCOS_LIB_PATH_WIN32_BEGIN);$(_COCOS_LIB_PATH_WIN32_END)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+    <PreLinkEvent>
+      <Command>
+      </Command>
+    </PreLinkEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup>
+    <CustomBuildStep>
+      <Command>if not exist "$(OutDir)" mkdir "$(OutDir)"
+xcopy "$(ProjectDir)..\Resources" "$(OutDir)" /D /E /I /F /Y
+if not exist "$(ProjectDir)..\..\LatestBuild\SoundEffects\" mkdir "$(ProjectDir)..\..\LatestBuild\SoundEffects\"
+xcopy "$(OutDir)SoundEffects" "$(ProjectDir)..\..\LatestBuild\SoundEffects\" /D /E /I /F /Y
+if not exist "$(ProjectDir)..\..\LatestBuild\windows\" mkdir "$(ProjectDir)..\..\LatestBuild\windows\"
+xcopy  "$(OutDir)windows" "$(ProjectDir)..\..\LatestBuild\windows\" /D /E /I /F /Y
+xcopy "$(OutDir)*.exe" "$(ProjectDir)..\..\LatestBuild" /D /E /I /F /Y
+xcopy "$(OutDir)*.dll" "$(ProjectDir)..\..\LatestBuild" /D /E /I /F /Y</Command>
+      <Outputs>$(TargetName).cab</Outputs>
+      <Inputs>$(TargetFileName)</Inputs>
+    </CustomBuildStep>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>$(EngineRoot);$(EngineRoot)external;$(EngineRoot)cocos\audio\include;$(EngineRoot)external\chipmunk\include\chipmunk;$(EngineRoot)extensions;..\Classes;..;%(AdditionalIncludeDirectories);$(_COCOS_HEADER_WIN32_BEGIN);$(_COCOS_HEADER_WIN32_END)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USE_MATH_DEFINES;GL_GLEXT_PROTOTYPES;CC_ENABLE_CHIPMUNK_INTEGRATION=1;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4267;4251;4244;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>libcurl.lib;%(AdditionalDependencies);$(_COCOS_LIB_WIN32_BEGIN);$(_COCOS_LIB_WIN32_END)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(ProjectName).exe</OutputFile>
+      <AdditionalLibraryDirectories>$(OutDir);%(AdditionalLibraryDirectories);$(_COCOS_LIB_PATH_WIN32_BEGIN);$(_COCOS_LIB_PATH_WIN32_END)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+    <PreLinkEvent>
+      <Command>
+      </Command>
+    </PreLinkEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Classes\AppDelegate.cpp" />
+    <ClCompile Include="..\Classes\GamerCamp\Debug\GLES-Render.cpp" />
+    <ClCompile Include="..\Classes\GamerCamp\GameController\GCController.cpp" />
+    <ClCompile Include="..\Classes\GamerCamp\GameController\GCControllerManager.cpp" />
+    <ClCompile Include="..\Classes\GamerCamp\GameSpecific\GCGameLayerPlatformer.cpp" />
+    <ClCompile Include="..\Classes\GamerCamp\GameSpecific\Invaders\GCObjGroupInvader.cpp" />
+    <ClCompile Include="..\Classes\GamerCamp\GameSpecific\Invaders\GCObjInvader.cpp" />
+    <ClCompile Include="..\Classes\GamerCamp\GameSpecific\Items\GCObjGroupItem.cpp" />
+    <ClCompile Include="..\Classes\GamerCamp\GameSpecific\Items\GCObjItem.cpp" />
+    <ClCompile Include="..\Classes\GamerCamp\GameSpecific\Platforms\GCObjGroupPlatform.cpp" />
+    <ClCompile Include="..\Classes\GamerCamp\GameSpecific\Platforms\GCObjPlatform.cpp" />
+    <ClCompile Include="..\Classes\GamerCamp\GameSpecific\Player\GCObjGroupProjectilePlayer.cpp" />
+    <ClCompile Include="..\Classes\GamerCamp\GameSpecific\Player\GCObjPlayer.cpp" />
+    <ClCompile Include="..\Classes\GamerCamp\GameSpecific\Player\GCObjProjectilePlayer.cpp" />
+    <ClCompile Include="..\Classes\GamerCamp\GCCocosInterface\GB2ShapeCache-x.cpp" />
+    <ClCompile Include="..\Classes\GamerCamp\GCCocosInterface\GCCallFuncStatic.cpp" />
+    <ClCompile Include="..\Classes\GamerCamp\GCCocosInterface\GCCocosHelpers.cpp" />
+    <ClCompile Include="..\Classes\GamerCamp\GCCocosInterface\GCCollisionManager.cpp" />
+    <ClCompile Include="..\Classes\GamerCamp\GCCocosInterface\GCFactory_ObjSpritePhysics.cpp" />
+    <ClCompile Include="..\Classes\GamerCamp\GCCocosInterface\GCObjSprite.cpp" />
+    <ClCompile Include="..\Classes\GamerCamp\GCCocosInterface\GCObjSpritePhysics.cpp" />
+    <ClCompile Include="..\Classes\GamerCamp\GCCocosInterface\GCObjTileLayer.cpp" />
+    <ClCompile Include="..\Classes\GamerCamp\GCCocosInterface\IGCGameLayer.cpp" />
+    <ClCompile Include="..\Classes\GamerCamp\GCCocosInterface\LevelLoader\GCLevelLoader_Ogmo.cpp" />
+    <ClCompile Include="..\Classes\GamerCamp\GCObject\GCObject.cpp" />
+    <ClCompile Include="..\Classes\GamerCamp\GCObject\GCObjectGroup.cpp" />
+    <ClCompile Include="..\Classes\GamerCamp\GCObject\GCObjectManager.cpp" />
+    <ClCompile Include="..\Classes\GamerCamp\GCObject\GCObjGroupDefault.cpp" />
+    <ClCompile Include="..\Classes\GamerCamp\Win32Input\CInputKeyboard.cpp" />
+    <ClCompile Include="..\Classes\GamerCamp\Win32Input\GCKeyboardManager.cpp" />
+    <ClCompile Include="..\Classes\ImpossibleRescue\AssetManager\CAssetManager.cpp" />
+    <ClCompile Include="..\Classes\ImpossibleRescue\Audio\CAudioSystem.cpp" />
+    <ClCompile Include="..\Classes\ImpossibleRescue\Audio\CExperimentalAudioSystem.cpp" />
+    <ClCompile Include="..\Classes\ImpossibleRescue\Audio\CSoundEffect.cpp" />
+    <ClCompile Include="..\Classes\ImpossibleRescue\Cinematic\CCinematicScene.cpp" />
+    <ClCompile Include="..\Classes\ImpossibleRescue\Cinematic\CTitleScreen.cpp" />
+    <ClCompile Include="..\Classes\ImpossibleRescue\Enemies\Turret\CTurret.cpp" />
+    <ClCompile Include="..\Classes\ImpossibleRescue\Enemies\Turret\CTurretProjectile.cpp" />
+    <ClCompile Include="..\Classes\ImpossibleRescue\Enemies\Turret\CTurretProjectileGroup.cpp" />
+    <ClCompile Include="..\Classes\ImpossibleRescue\Environment\CContainersAsset.cpp" />
+    <ClCompile Include="..\Classes\ImpossibleRescue\Environment\Door\CDoor.cpp" />
+    <ClCompile Include="..\Classes\ImpossibleRescue\Environment\Hazards\CHazardCables2m.cpp" />
+    <ClCompile Include="..\Classes\ImpossibleRescue\Environment\Hazards\CHazardCables3m.cpp" />
+    <ClCompile Include="..\Classes\ImpossibleRescue\Environment\Hazards\CVerticalHazard.cpp" />
+    <ClCompile Include="..\Classes\ImpossibleRescue\Environment\LevelTransitionBorders\CHorizontalLevelTransitionBorder.cpp" />
+    <ClCompile Include="..\Classes\ImpossibleRescue\Environment\LevelTransitionBorders\CVerticalLevelTransitionBorder.cpp" />
+    <ClCompile Include="..\Classes\ImpossibleRescue\Environment\Platforms\CMovingPlatform.cpp" />
+    <ClCompile Include="..\Classes\ImpossibleRescue\Environment\Platforms\CMovingPlatform3m.cpp" />
+    <ClCompile Include="..\Classes\ImpossibleRescue\Environment\Platforms\CStandardPlatform5m.cpp" />
+    <ClCompile Include="..\Classes\ImpossibleRescue\Environment\Platforms\CWallPlatform3m.cpp" />
+    <ClCompile Include="..\Classes\ImpossibleRescue\Environment\Platforms\CWallPlatform3mLeft.cpp" />
+    <ClCompile Include="..\Classes\ImpossibleRescue\Environment\Platforms\CWallPlatform3mRight.cpp" />
+    <ClCompile Include="..\Classes\ImpossibleRescue\Environment\Platforms\CWallPlatform4m.cpp" />
+    <ClCompile Include="..\Classes\ImpossibleRescue\Environment\Platforms\CWallPlatform4mLeft.cpp" />
+    <ClCompile Include="..\Classes\ImpossibleRescue\Environment\Platforms\CWallPlatform4mRight.cpp" />
+    <ClCompile Include="..\Classes\ImpossibleRescue\Environment\Platforms\CWallPlatform5m.cpp" />
+    <ClCompile Include="..\Classes\ImpossibleRescue\Environment\Platforms\CWallPlatform5mLeft.cpp" />
+    <ClCompile Include="..\Classes\ImpossibleRescue\Environment\Platforms\CWallPlatform5mMid.cpp" />
+    <ClCompile Include="..\Classes\ImpossibleRescue\Environment\Platforms\CWallPlatform5mRight.cpp" />
+    <ClCompile Include="..\Classes\ImpossibleRescue\Environment\Walls\CCeiling.cpp" />
+    <ClCompile Include="..\Classes\ImpossibleRescue\Environment\Walls\CFloor.cpp" />
+    <ClCompile Include="..\Classes\ImpossibleRescue\Environment\Walls\CLeftWall.cpp" />
+    <ClCompile Include="..\Classes\ImpossibleRescue\Environment\Walls\CRightWall.cpp" />
+    <ClCompile Include="..\Classes\ImpossibleRescue\Environment\Walls\CWall5M.cpp" />
+    <ClCompile Include="..\Classes\ImpossibleRescue\Events\Mediator\CActionOnRelease.cpp" />
+    <ClCompile Include="..\Classes\ImpossibleRescue\Events\Mediator\CEventMediator.cpp" />
+    <ClCompile Include="..\Classes\ImpossibleRescue\Gameplay\CHackingStation.cpp" />
+    <ClCompile Include="..\Classes\ImpossibleRescue\Gameplay\CLevelTimer.cpp" />
+    <ClCompile Include="..\Classes\ImpossibleRescue\Levels\CBaseLevel.cpp" />
+    <ClCompile Include="..\Classes\ImpossibleRescue\Levels\CEndScreen.cpp" />
+    <ClCompile Include="..\Classes\ImpossibleRescue\Levels\CMenuScene.cpp" />
+    <ClCompile Include="..\Classes\ImpossibleRescue\Levels\CTemplateLevel.cpp" />
+    <ClCompile Include="..\Classes\ImpossibleRescue\Levels\Level1\CLevel1Area1.cpp" />
+    <ClCompile Include="..\Classes\ImpossibleRescue\Levels\Level1\CLevel1Area2.cpp" />
+    <ClCompile Include="..\Classes\ImpossibleRescue\Levels\Level2\CLevel2Area1.cpp" />
+    <ClCompile Include="..\Classes\ImpossibleRescue\Levels\Level2\CLevel2Area2.cpp" />
+    <ClCompile Include="..\Classes\ImpossibleRescue\Levels\Level3\CLevel3Area1.cpp" />
+    <ClCompile Include="..\Classes\ImpossibleRescue\Levels\Level3\CLevel3Area2.cpp" />
+    <ClCompile Include="..\Classes\ImpossibleRescue\Levels\Level4\CLevel4Area1.cpp" />
+    <ClCompile Include="..\Classes\ImpossibleRescue\Levels\Level4\CLevel4Area2.cpp" />
+    <ClCompile Include="..\Classes\ImpossibleRescue\Physics\SPhysicsObjectUserData.cpp" />
+    <ClCompile Include="..\Classes\ImpossibleRescue\Player\CPlayer.cpp" />
+    <ClCompile Include="..\Classes\ImpossibleRescue\Player\Equipment\CPlayerEquipmentStates.cpp" />
+    <ClCompile Include="..\Classes\ImpossibleRescue\Player\Equipment\Shooting\PrimaryShooting\CPlayerPrimaryProjectile.cpp" />
+    <ClCompile Include="..\Classes\ImpossibleRescue\Player\Equipment\Shooting\PrimaryShooting\CPlayerPrimaryProjectileGroup.cpp" />
+    <ClCompile Include="..\Classes\ImpossibleRescue\Player\Equipment\Shooting\PrimaryShooting\CPrimaryShootingPlayerEquipmentState.cpp" />
+    <ClCompile Include="..\Classes\ImpossibleRescue\Player\Equipment\Shooting\SecondaryShooting\CPlayerSecondaryProjectile.cpp" />
+    <ClCompile Include="..\Classes\ImpossibleRescue\Player\Equipment\Shooting\SecondaryShooting\CPlayerSecondaryProjectileGroup.cpp" />
+    <ClCompile Include="..\Classes\ImpossibleRescue\Player\Equipment\Shooting\SecondaryShooting\CSecondaryShootingPlayerEquipmentState.cpp" />
+    <ClCompile Include="..\Classes\ImpossibleRescue\Player\Health\CPlayerHealth.cpp" />
+    <ClCompile Include="..\Classes\ImpossibleRescue\Player\Movement\CPlayerMovementState.cpp" />
+    <ClCompile Include="..\Classes\ImpossibleRescue\Player\Movement\Crouching\CCrouchingPlayerMovementState.cpp" />
+    <ClCompile Include="..\Classes\ImpossibleRescue\Player\Movement\DoubleJumping\CDoubleJumpingPlayerMovementState.cpp" />
+    <ClCompile Include="..\Classes\ImpossibleRescue\Player\Movement\IdleCrouching\CIdleCrouchingPlayerMovementState.cpp" />
+    <ClCompile Include="..\Classes\ImpossibleRescue\Player\Movement\IdleStanding\CIdleStandingPlayerMovementState.cpp" />
+    <ClCompile Include="..\Classes\ImpossibleRescue\Player\Movement\JumpingCrouch\CJumpingCrouchPlayerMovementState.cpp" />
+    <ClCompile Include="..\Classes\ImpossibleRescue\Player\Movement\JumpingWalk\CJumpingWalkPlayerMovementState.cpp" />
+    <ClCompile Include="..\Classes\ImpossibleRescue\Player\Movement\Jumping\CJumpingPlayerMovementState.cpp" />
+    <ClCompile Include="..\Classes\ImpossibleRescue\Player\Movement\Walking\CWalkingPlayerMovementState.cpp" />
+    <ClCompile Include="..\Classes\ImpossibleRescue\Player\PlayerData\CPlayerData.cpp" />
+    <ClCompile Include="..\Classes\ImpossibleRescue\Player\PlayerData\CPlayerDataManager.cpp" />
+    <ClCompile Include="..\Classes\ImpossibleRescue\Player\PlayerData\LevelTransitionData\CPlayerLevelTransitionData.cpp" />
+    <ClCompile Include="..\Classes\ImpossibleRescue\SHADOW\CShadow.cpp" />
+    <ClCompile Include="..\Classes\ImpossibleRescue\UI\CButton.cpp" />
+    <ClCompile Include="..\Classes\ImpossibleRescue\UI\CHealth_UI.cpp" />
+    <ClCompile Include="..\Classes\ImpossibleRescue\UI\TickerText.cpp" />
+    <ClCompile Include="..\Classes\ImpossibleRescue\Utilities\CLabelHelper.cpp" />
+    <ClCompile Include="..\Classes\ImpossibleRescue\Utilities\CTimerHelper.cpp" />
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Classes\AppDelegate.h" />
+    <ClInclude Include="..\Classes\AppMacros.h" />
+    <ClInclude Include="..\Classes\GamerCamp\Collections\NoAllocList.h" />
+    <ClInclude Include="..\Classes\GamerCamp\Core\GCTypes.h" />
+    <ClInclude Include="..\Classes\GamerCamp\Debug\GLES-Render.h" />
+    <ClInclude Include="..\Classes\GamerCamp\GameController\GCController.h" />
+    <ClInclude Include="..\Classes\GamerCamp\GameController\GCControllerManager.h" />
+    <ClInclude Include="..\Classes\GamerCamp\GameSpecific\GCGameLayerPlatformer.h" />
+    <ClInclude Include="..\Classes\GamerCamp\GameSpecific\Invaders\GCObjGroupInvader.h" />
+    <ClInclude Include="..\Classes\GamerCamp\GameSpecific\Invaders\GCObjInvader.h" />
+    <ClInclude Include="..\Classes\GamerCamp\GameSpecific\Items\GCObjGroupItem.h" />
+    <ClInclude Include="..\Classes\GamerCamp\GameSpecific\Items\GCObjItem.h" />
+    <ClInclude Include="..\Classes\GamerCamp\GameSpecific\Platforms\GCObjGroupPlatform.h" />
+    <ClInclude Include="..\Classes\GamerCamp\GameSpecific\Platforms\GCObjPlatform.h" />
+    <ClInclude Include="..\Classes\GamerCamp\GameSpecific\Player\GCObjGroupProjectilePlayer.h" />
+    <ClInclude Include="..\Classes\GamerCamp\GameSpecific\Player\GCObjPlayer.h" />
+    <ClInclude Include="..\Classes\GamerCamp\GameSpecific\Player\GCObjProjectilePlayer.h" />
+    <ClInclude Include="..\Classes\GamerCamp\GCCocosInterface\GB2ShapeCache-x.h" />
+    <ClInclude Include="..\Classes\GamerCamp\GCCocosInterface\GCCallFuncStatic.h" />
+    <ClInclude Include="..\Classes\GamerCamp\GCCocosInterface\GCCocosHelpers.h" />
+    <ClInclude Include="..\Classes\GamerCamp\GCCocosInterface\GCCollisionManager.h" />
+    <ClInclude Include="..\Classes\GamerCamp\GCCocosInterface\GCFactory_ObjSpritePhysics.h" />
+    <ClInclude Include="..\Classes\GamerCamp\GCCocosInterface\GCObjSprite.h" />
+    <ClInclude Include="..\Classes\GamerCamp\GCCocosInterface\GCObjSpritePhysics.h" />
+    <ClInclude Include="..\Classes\GamerCamp\GCCocosInterface\GCObjTileLayer.h" />
+    <ClInclude Include="..\Classes\GamerCamp\GCCocosInterface\IGCGameLayer.h" />
+    <ClInclude Include="..\Classes\GamerCamp\GCCocosInterface\LevelLoader\GCLevelLoader_Ogmo.h" />
+    <ClInclude Include="..\Classes\GamerCamp\GCCocosInterface\SGCFactoryCreationParams.h" />
+    <ClInclude Include="..\Classes\GamerCamp\GCObject\GCObject.h" />
+    <ClInclude Include="..\Classes\GamerCamp\GCObject\GCObjectGroup.h" />
+    <ClInclude Include="..\Classes\GamerCamp\GCObject\GCObjectManager.h" />
+    <ClInclude Include="..\Classes\GamerCamp\GCObject\GCObjGroupDefault.h" />
+    <ClInclude Include="..\Classes\GamerCamp\Win32Input\CInputKeyboard.h" />
+    <ClInclude Include="..\Classes\GamerCamp\Win32Input\GCKeyboardManager.h" />
+    <ClInclude Include="..\Classes\ImpossibleRescue\AssetManager\CAssetManager.h" />
+    <ClInclude Include="..\Classes\ImpossibleRescue\AssetManager\IAssetManager.h" />
+    <ClInclude Include="..\Classes\ImpossibleRescue\Audio\CAudioSystem.h" />
+    <ClInclude Include="..\Classes\ImpossibleRescue\Audio\CExperimentalAudioSystem.h" />
+    <ClInclude Include="..\Classes\ImpossibleRescue\Audio\CSoundEffect.h" />
+    <ClInclude Include="..\Classes\ImpossibleRescue\Audio\ESoundFX.h" />
+    <ClInclude Include="..\Classes\ImpossibleRescue\Audio\IAudioSystem.h" />
+    <ClInclude Include="..\Classes\ImpossibleRescue\Audio\ISoundEffect.h" />
+    <ClInclude Include="..\Classes\ImpossibleRescue\Cinematic\CCinematicScene.h" />
+    <ClInclude Include="..\Classes\ImpossibleRescue\Cinematic\CTitleScreen.h" />
+    <ClInclude Include="..\Classes\ImpossibleRescue\Enemies\Turret\CTurret.h" />
+    <ClInclude Include="..\Classes\ImpossibleRescue\Enemies\Turret\CTurretProjectile.h" />
+    <ClInclude Include="..\Classes\ImpossibleRescue\Enemies\Turret\CTurretProjectileGroup.h" />
+    <ClInclude Include="..\Classes\ImpossibleRescue\Environment\CContainersAsset.h" />
+    <ClInclude Include="..\Classes\ImpossibleRescue\Environment\Door\CDoor.h" />
+    <ClInclude Include="..\Classes\ImpossibleRescue\Environment\Hazards\CHazardCables2m.h" />
+    <ClInclude Include="..\Classes\ImpossibleRescue\Environment\Hazards\CHazardCables3m.h" />
+    <ClInclude Include="..\Classes\ImpossibleRescue\Environment\Hazards\CVerticalHazard.h" />
+    <ClInclude Include="..\Classes\ImpossibleRescue\Environment\LevelTransitionBorders\CHorizontalLevelTransitionBorder.h" />
+    <ClInclude Include="..\Classes\ImpossibleRescue\Environment\LevelTransitionBorders\CVerticalLevelTransitionBorder.h" />
+    <ClInclude Include="..\Classes\ImpossibleRescue\Environment\Platforms\CMovingPlatform.h" />
+    <ClInclude Include="..\Classes\ImpossibleRescue\Environment\Platforms\CMovingPlatform3m.h" />
+    <ClInclude Include="..\Classes\ImpossibleRescue\Environment\Platforms\CStandardPlatform5m.h" />
+    <ClInclude Include="..\Classes\ImpossibleRescue\Environment\Platforms\CWallPlatform3m.h" />
+    <ClInclude Include="..\Classes\ImpossibleRescue\Environment\Platforms\CWallPlatform3mLeft.h" />
+    <ClInclude Include="..\Classes\ImpossibleRescue\Environment\Platforms\CWallPlatform3mRight.h" />
+    <ClInclude Include="..\Classes\ImpossibleRescue\Environment\Platforms\CWallPlatform4m.h" />
+    <ClInclude Include="..\Classes\ImpossibleRescue\Environment\Platforms\CWallPlatform4mLeft.h" />
+    <ClInclude Include="..\Classes\ImpossibleRescue\Environment\Platforms\CWallPlatform4mRight.h" />
+    <ClInclude Include="..\Classes\ImpossibleRescue\Environment\Platforms\CWallPlatform5m.h" />
+    <ClInclude Include="..\Classes\ImpossibleRescue\Environment\Platforms\CWallPlatform5mLeft.h" />
+    <ClInclude Include="..\Classes\ImpossibleRescue\Environment\Platforms\CWallPlatform5mMid.h" />
+    <ClInclude Include="..\Classes\ImpossibleRescue\Environment\Platforms\CWallPlatform5mRight.h" />
+    <ClInclude Include="..\Classes\ImpossibleRescue\Environment\Walls\CCeiling.h" />
+    <ClInclude Include="..\Classes\ImpossibleRescue\Environment\Walls\CFloor.h" />
+    <ClInclude Include="..\Classes\ImpossibleRescue\Environment\Walls\CLeftWall.h" />
+    <ClInclude Include="..\Classes\ImpossibleRescue\Environment\Walls\CRightWall.h" />
+    <ClInclude Include="..\Classes\ImpossibleRescue\Environment\Walls\CWall5M.h" />
+    <ClInclude Include="..\Classes\ImpossibleRescue\Events\EventTypes\CGamePausedEvent.h" />
+    <ClInclude Include="..\Classes\ImpossibleRescue\Events\EventTypes\CGameResumedEvent.h" />
+    <ClInclude Include="..\Classes\ImpossibleRescue\Events\EventTypes\CLevelTransitionEvent.h" />
+    <ClInclude Include="..\Classes\ImpossibleRescue\Events\EventTypes\CPlayBackgroundMusicEvent.h" />
+    <ClInclude Include="..\Classes\ImpossibleRescue\Events\EventTypes\CPlayerHasDiedEvent.h" />
+    <ClInclude Include="..\Classes\ImpossibleRescue\Events\EventTypes\CStationHackedEvent.h" />
+    <ClInclude Include="..\Classes\ImpossibleRescue\Events\Mediator\CActionOnRelease.h" />
+    <ClInclude Include="..\Classes\ImpossibleRescue\Events\Mediator\CEventMediator.h" />
+    <ClInclude Include="..\Classes\ImpossibleRescue\Events\Mediator\IEventMediator.h" />
+    <ClInclude Include="..\Classes\ImpossibleRescue\Events\Mediator\IEventPublisher.h" />
+    <ClInclude Include="..\Classes\ImpossibleRescue\Events\Mediator\IEventSource.h" />
+    <ClInclude Include="..\Classes\ImpossibleRescue\Events\Mediator\ITReceiveEvents.h" />
+    <ClInclude Include="..\Classes\ImpossibleRescue\Events\Mediator\TNotificationChannel.h" />
+    <ClInclude Include="..\Classes\ImpossibleRescue\Gameplay\CHackingStation.h" />
+    <ClInclude Include="..\Classes\ImpossibleRescue\Gameplay\CLevelTimer.h" />
+    <ClInclude Include="..\Classes\ImpossibleRescue\Gameplay\IHackable.h" />
+    <ClInclude Include="..\Classes\ImpossibleRescue\Levels\CBaseLevel.h" />
+    <ClInclude Include="..\Classes\ImpossibleRescue\Levels\CEndScreen.h" />
+    <ClInclude Include="..\Classes\ImpossibleRescue\Levels\CMenuScene.h" />
+    <ClInclude Include="..\Classes\ImpossibleRescue\Levels\CTemplateLevel.h" />
+    <ClInclude Include="..\Classes\ImpossibleRescue\Levels\ELevelTransitionType.h" />
+    <ClInclude Include="..\Classes\ImpossibleRescue\Levels\Level1\CLevel1Area1.h" />
+    <ClInclude Include="..\Classes\ImpossibleRescue\Levels\Level1\CLevel1Area2.h" />
+    <ClInclude Include="..\Classes\ImpossibleRescue\Levels\Level2\CLevel2Area1.h" />
+    <ClInclude Include="..\Classes\ImpossibleRescue\Levels\Level2\CLevel2Area2.h" />
+    <ClInclude Include="..\Classes\ImpossibleRescue\Levels\Level3\CLevel3Area1.h" />
+    <ClInclude Include="..\Classes\ImpossibleRescue\Levels\Level3\CLevel3Area2.h" />
+    <ClInclude Include="..\Classes\ImpossibleRescue\Levels\Level4\CLevel4Area1.h" />
+    <ClInclude Include="..\Classes\ImpossibleRescue\Levels\Level4\CLevel4Area2.h" />
+    <ClInclude Include="..\Classes\ImpossibleRescue\Physics\SPhysicsObjectUserData.h" />
+    <ClInclude Include="..\Classes\ImpossibleRescue\Player\CPlayer.h" />
+    <ClInclude Include="..\Classes\ImpossibleRescue\Player\EPlayerActions.h" />
+    <ClInclude Include="..\Classes\ImpossibleRescue\Player\EPlayerCutsceneActions.h" />
+    <ClInclude Include="..\Classes\ImpossibleRescue\Player\Equipment\CPlayerEquipmentState.h" />
+    <ClInclude Include="..\Classes\ImpossibleRescue\Player\Equipment\CPlayerEquipmentStates.h" />
+    <ClInclude Include="..\Classes\ImpossibleRescue\Player\Equipment\Shooting\PrimaryShooting\CPlayerPrimaryProjectile.h" />
+    <ClInclude Include="..\Classes\ImpossibleRescue\Player\Equipment\Shooting\PrimaryShooting\CPlayerPrimaryProjectileGroup.h" />
+    <ClInclude Include="..\Classes\ImpossibleRescue\Player\Equipment\Shooting\PrimaryShooting\CPrimaryShootingPlayerEquipmentState.h" />
+    <ClInclude Include="..\Classes\ImpossibleRescue\Player\Equipment\Shooting\SecondaryShooting\CPlayerSecondaryProjectile.h" />
+    <ClInclude Include="..\Classes\ImpossibleRescue\Player\Equipment\Shooting\SecondaryShooting\CPlayerSecondaryProjectileGroup.h" />
+    <ClInclude Include="..\Classes\ImpossibleRescue\Player\Equipment\Shooting\SecondaryShooting\CSecondaryShootingPlayerEquipmentState.h" />
+    <ClInclude Include="..\Classes\ImpossibleRescue\Player\Health\CPlayerHealth.h" />
+    <ClInclude Include="..\Classes\ImpossibleRescue\Player\Movement\CPlayerMovementState.h" />
+    <ClInclude Include="..\Classes\ImpossibleRescue\Player\Movement\CPlayerMovementStates.h" />
+    <ClInclude Include="..\Classes\ImpossibleRescue\Player\Movement\Crouching\CCrouchingPlayerMovementState.h" />
+    <ClInclude Include="..\Classes\ImpossibleRescue\Player\Movement\DoubleJumping\CDoubleJumpingPlayerMovementState.h" />
+    <ClInclude Include="..\Classes\ImpossibleRescue\Player\Movement\IdleCrouching\CIdleCrouchingPlayerMovementState.h" />
+    <ClInclude Include="..\Classes\ImpossibleRescue\Player\Movement\IdleStanding\CIdleStandingPlayerMovementState.h" />
+    <ClInclude Include="..\Classes\ImpossibleRescue\Player\Movement\JumpingCrouch\CJumpingCrouchPlayerMovementState.h" />
+    <ClInclude Include="..\Classes\ImpossibleRescue\Player\Movement\JumpingWalk\CJumpingWalkPlayerMovementState.h" />
+    <ClInclude Include="..\Classes\ImpossibleRescue\Player\Movement\Jumping\CJumpingPlayerMovementState.h" />
+    <ClInclude Include="..\Classes\ImpossibleRescue\Player\Movement\Walking\CWalkingPlayerMovementState.h" />
+    <ClInclude Include="..\Classes\ImpossibleRescue\Player\PlayerData\CPlayerData.h" />
+    <ClInclude Include="..\Classes\ImpossibleRescue\Player\PlayerData\CPlayerDataManager.h" />
+    <ClInclude Include="..\Classes\ImpossibleRescue\Player\PlayerData\LevelTransitionData\CPlayerLevelTransitionData.h" />
+    <ClInclude Include="..\Classes\ImpossibleRescue\SHADOW\CShadow.h" />
+    <ClInclude Include="..\Classes\ImpossibleRescue\UI\CButton.h" />
+    <ClInclude Include="..\Classes\ImpossibleRescue\UI\CHealth_UI.h" />
+    <ClInclude Include="..\Classes\ImpossibleRescue\UI\EPlayerMenuActions.h" />
+    <ClInclude Include="..\Classes\ImpossibleRescue\UI\TickerText.h" />
+    <ClInclude Include="..\Classes\ImpossibleRescue\Utilities\CHelperFunctions.h" />
+    <ClInclude Include="..\Classes\ImpossibleRescue\Utilities\CLabelHelper.h" />
+    <ClInclude Include="..\Classes\ImpossibleRescue\Utilities\CTimerHelper.h" />
+    <ClInclude Include="main.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\cocos2d\cocos\2d\libcocos2d.vcxproj">
+      <Project>{98a51ba8-fc3a-415b-ac8f-8c7bd464e93e}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\cocos2d\external\Box2D\proj.win32\libbox2d.vcxproj">
+      <Project>{929480e7-23c0-4df6-8456-096d71547116}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,24 @@
+<level width="1920" height="1080">
+  <MainLayer>
+    <RightWall id="0" x="1898" y="541" class="CRightWall" shape="RightWall" PlistFile="TexturePacker/Sprites/Walls/WallRight/WallRight.plist" B2DBodyType="b2_staticBody" HasFixedRotation="True" />
+    <Ceiling id="1" x="960" y="16" class="CCeiling" shape="Ceiling" PlistFile="TexturePacker/Sprites/Ceiling/Ceiling.plist" B2DBodyType="b2_staticBody" HasFixedRotation="True" />
+    <Floor id="2" x="960" y="1059" class="CFloor" shape="Floor" PlistFile="TexturePacker/Sprites/Floors/Floors.plist" B2DBodyType="b2_staticBody" HasFixedRotation="True" />
+    <Containers id="3" x="175" y="1064" class="CContainersAsset" shape="Containers" PlistFile="TexturePacker/Sprites/Containers/Containers.plist" B2DBodyType="b2_staticBody" HasFixedRotation="True" />
+    <Containers id="4" x="174" y="-26" class="CContainersAsset" shape="Containers" PlistFile="TexturePacker/Sprites/Containers/Containers.plist" B2DBodyType="b2_staticBody" HasFixedRotation="True" />
+    <Turret id="6" x="858" y="726" angle="3.141593" class="CTurret" shape="Turret" PlistFile="TexturePacker/Sprites/Turret/Turret.plist" B2DBodyType="b2_staticBody" HasFixedRotation="True" ShootVelocityX="0" ShootVelocityY="0" ShotsInBurst="0" CDBetweenBursts="100" CDBetweenBullets="100" HackingID="" />
+    <Turret id="7" x="1321" y="768" angle="3.141593" class="CTurret" shape="Turret" PlistFile="TexturePacker/Sprites/Turret/Turret.plist" B2DBodyType="b2_staticBody" HasFixedRotation="True" ShootVelocityX="0" ShootVelocityY="0" ShotsInBurst="0" CDBetweenBursts="100" CDBetweenBullets="100" HackingID="" />
+    <Door id="8" x="1798" y="930" class="CDoor" shape="Door" PlistFile="TexturePacker/Sprites/Door/Door.plist" B2DBodyType="b2_staticBody" HasFixedRotation="True" HackingID="L3A1Q" />
+    <VerticalBorder id="10" x="-104" y="553" class="CVerticalLevelTransitionBorder" shape="VerticalBorder" PlistFile="TexturePacker/Sprites/CollisionBorders/VerticalBorder/VerticalBorder.plist" B2DBodyType="b2_staticBody" HasFixedRotation="True" />
+    <WallPlatform4mRight id="12" x="727" y="814" class="CWallPlatform4mRight" shape="WallPlatform4mRight" PlistFile="TexturePacker/Sprites/Platforms/WallPlatform4mRight/WallPlatform4mRight.plist" B2DBodyType="b2_staticBody" HasFixedRotation="True" />
+    <Hazard3m id="11" x="468" y="995" class="CHazardCables3m" shape="HazardCables3m" PlistFile="TexturePacker/Sprites/HorizontalHazards/HorizontalHazards.plist" B2DBodyType="b2_staticBody" HasFixedRotation="True" />
+    <Hazard3m id="13" x="706" y="995" class="CHazardCables3m" shape="HazardCables3m" PlistFile="TexturePacker/Sprites/HorizontalHazards/HorizontalHazards.plist" B2DBodyType="b2_staticBody" HasFixedRotation="True" />
+    <Hazard2m id="14" x="818" y="995" class="CHazardCables2m" shape="HazardCables2m" PlistFile="TexturePacker/Sprites/HorizontalHazards/HorizontalHazards.plist" B2DBodyType="b2_staticBody" HasFixedRotation="True" />
+    <WallPlatform3mRight id="15" x="1760" y="814" class="CWallPlatform3mRight" shape="WallPlatform3mRight" PlistFile="TexturePacker/Sprites/Platforms/WallPlatform3mRight/WallPlatform3mRight.plist" B2DBodyType="b2_staticBody" HasFixedRotation="True" />
+    <HackingStation id="16" x="1826" y="726" class="CHackingStation" shape="HackingStation" PlistFile="TexturePacker/Sprites/HackingStation/HackingStation.plist" B2DBodyType="b2_staticBody" HasFixedRotation="True" HackingID="L3A1Q" HackingTimer="2.2" />
+    <Player id="9" x="-365" y="535" class="CPlayer" shape="Danielle_Walking" PlistFile="TexturePacker/Sprites/Danielle/Danielle.plist" B2DBodyType="b2_dynamicBody" HasFixedRotation="True" />
+    <Containers id="18" x="-177" y="1072" class="CContainersAsset" shape="Containers" PlistFile="TexturePacker/Sprites/Containers/Containers.plist" B2DBodyType="b2_staticBody" HasFixedRotation="True" />
+    <Containers id="19" x="-178" y="-26" class="CContainersAsset" shape="Containers" PlistFile="TexturePacker/Sprites/Containers/Containers.plist" B2DBodyType="b2_staticBody" HasFixedRotation="True" />
+    <LeftWall id="20" x="922" y="1166" class="CLeftWall" shape="LeftWall" PlistFile="TexturePacker/Sprites/Walls/WallLeft/WallLeft.plist" B2DBodyType="b2_staticBody" HasFixedRotation="True" />
+    <WallPlatform5mLeft id="5" x="1159" y="858" class="CWallPlatform5mLeft" shape="WallPlatform5mLeft" PlistFile="TexturePacker/Sprites/Platforms/WallPlatform5mLeft/WallPlatform5mLeft.plist" B2DBodyType="b2_staticBody" HasFixedRotation="True" />
+  </MainLayer>
+</level>

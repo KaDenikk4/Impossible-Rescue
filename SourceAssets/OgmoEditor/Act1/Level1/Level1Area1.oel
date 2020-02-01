@@ -1,0 +1,11 @@
+<level width="1920" height="1080">
+  <MainLayer>
+    <LeftWall id="0" x="20" y="540" class="CLeftWall" shape="LeftWall" PlistFile="TexturePacker/Sprites/Walls/WallLeft/WallLeft.plist" B2DBodyType="b2_staticBody" HasFixedRotation="True" />
+    <Floor id="1" x="960" y="1060" class="CFloor" shape="Floor" PlistFile="TexturePacker/Sprites/Floors/Floors.plist" B2DBodyType="b2_staticBody" HasFixedRotation="True" />
+    <Ceiling id="2" x="960" y="16" class="CCeiling" shape="Ceiling" PlistFile="TexturePacker/Sprites/Ceiling/Ceiling.plist" B2DBodyType="b2_staticBody" HasFixedRotation="True" />
+    <VerticalBorder id="4" x="1964" y="540" class="CVerticalLevelTransitionBorder" shape="VerticalBorder" PlistFile="TexturePacker/Sprites/CollisionBorders/VerticalBorder/VerticalBorder.plist" B2DBodyType="b2_staticBody" HasFixedRotation="True" />
+    <Player id="3" x="134" y="972" class="CPlayer" shape="Danielle_Walking" PlistFile="TexturePacker/Sprites/Danielle/Danielle.plist" B2DBodyType="b2_dynamicBody" HasFixedRotation="True" />
+    <Floor id="5" x="2874" y="1060" class="CFloor" shape="Floor" PlistFile="TexturePacker/Sprites/Floors/Floors.plist" B2DBodyType="b2_staticBody" HasFixedRotation="True" />
+    <Ceiling id="6" x="2880" y="16" class="CCeiling" shape="Ceiling" PlistFile="TexturePacker/Sprites/Ceiling/Ceiling.plist" B2DBodyType="b2_staticBody" HasFixedRotation="True" />
+  </MainLayer>
+</level>
