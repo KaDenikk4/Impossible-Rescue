@@ -2,14 +2,14 @@
 ![](https://toyangreen.com/images/ImpossibleRescue/Preview.jpg)
 
 ##**Overview**
-**Impossible Rescue** is a 2D single-screen platformer game, inspired by Manic Miner, Impossible Mission, and Shadow Complex Remastered. The game follows a freelance mercenary, ‘Danielle’, and her remote AI assistant <abbr title="Specialist Hard-linked Android for Duty in Offshore Wars">'S.H.A.D.O.W.'</abbr>, on a mission to rescue the President of Earth's daughter from a hidden security installation on Mars. The player must take control of Danielle in order to navigate a series of single-screen, theme-based environments, interacting with various platforms, avoiding/destroying enemies and 'hacking' computers in order to progress from one area to the next. The game was developed by a team of 10 people, consisting of 3 programmers, 3 artists, 2 designers, a producer and a music composer.  The game was built using C++ and the Gamer Camp [GCFramework](https://bitbucket.org/darbotron/gcframework/src/master/ "GCFramework"); a wrapper around Cocos2d-x. The game runs on a PC, with the use of a Dualshock 4 controller. A video demo can be viewed [here](https://drive.google.com/open?id=1fUhpNCXA-GPNHENtkok3PveHw8dyuWJH "here").
+**Impossible Rescue** is a 2D single-screen platformer game, inspired by Manic Miner, Impossible Mission, and Shadow Complex Remastered. The game follows a freelance mercenary, ‘Danielle’, and her remote AI assistant <abbr title="Specialist Hard-linked Android for Duty in Offshore Wars">'S.H.A.D.O.W.'</abbr>, on a mission to rescue the President of Earth's daughter from a hidden security installation on Mars. The player must take control of Danielle in order to navigate a series of single-screen, theme-based environments, interacting with various platforms, avoiding/destroying enemies and 'hacking' computers in order to progress from one area to the next. The game was developed by a team of 10 people, consisting of 3 programmers, 3 artists, 2 designers, a producer and a music composer.  The game was built using C++ and the Gamer Camp [GCFramework](https://bitbucket.org/darbotron/gcframework/src/master/ "GCFramework"); a wrapper around Cocos2d-x. CodeWeb [TexturePacker](https://www.codeandweb.com/texturepacker "TexturePacker") and [PhysicsEditor](https://www.codeandweb.com/physicseditor "PhysicsEditor") were used to create spritesheets and physics data. [Ogmo Editor](https://ogmo-editor-3.github.io/ "Ogmo Editor") V2 was used to create the levels. The game runs on a PC, with the use of a Dualshock 4 controller. A video demo can be viewed [here](https://drive.google.com/open?id=1fUhpNCXA-GPNHENtkok3PveHw8dyuWJH "here").
 
 ##**Table of Contents**
 [TOC]
 
 ##**Game Mechanics**
-####Player / Companion Mechanics
 
+####Player / Companion Mechanics
 #####Movement
 - Move left, right and jump
 - Jump – Single jump with fixed height but the distance can be controlled by holding the left or right button to travel further
@@ -52,22 +52,22 @@
 
 ##**Credits**
 
-###Programming  :fa-keyboard-o:
+####Programming
 - Toyan Green :fa-envelope-o: [Email](mailto:toyangreen@gmail.com?subject=Just had a look at Impossible Rescue "Email") :fa-desktop: [Portfolio](https://toyanngreen.com "Portfolio") :fa-linkedin: [LinkedIn](https://uk.linkedIn.com/in/toyangreen "LinkedIn")
 - Tomek Snopek :fa-envelope-o: [Email](mailto:tsnopek22@gmail.com?subject=Just had a look at Impossible Rescue "Email")
 - Deniss Kaminskis :fa-envelope-o: [Email](mailto:denikk4@inbox.lv?subject=Just had a look at Impossible Rescue "Email")
 
-###Art :fa-paint-brush:
+####Art
 - Kenan Wallace :fa-envelope-o: [Email](mailto:kenan.wallace@outlook.com?subject=Just had a look at Impossible Rescue "Email")
 - Jamie Warner :fa-envelope-o: [Email](mailto:jamiwarner@sky.com?subject=Just had a look at Impossible Rescue "Email")
 - Rylan Taylor :fa-envelope-o: [Email](mailto:rylantaylor@hotmail.co.uk?subject=Just had a look at Impossible Rescue "Email")
 
-###Design :fa-lightbulb-o:
+####Design
 - Dylan Samra :fa-envelope-o: [Email](mailto:dylansamra21@gmail.com?subject=Just had a look at Impossible Rescue "Email")
 - Artur Sienkiewicz :fa-envelope-o: [Email](mailto:Artursien99@gmail.com?subject=Just had a look at Impossible Rescue "Email")
 
-###Production :fa-bar-chart:
+####Production
 - Luke Hodgetts :fa-envelope-o: [Email](mailto:l.hodgetts24@gmail.com?subject=Just had a look at Impossible Rescue "Email")
 
-###Music Composition :fa-music:
+####Music Composition
 - Benjamin Coulson :fa-envelope-o: [Email](mailto:bengoldencoulsonwork@gmail.com?subject=Just had a look at Impossible Rescue "Email")
