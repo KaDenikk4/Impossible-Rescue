@@ -83,7 +83,7 @@
 - Lethal environmental hazards
 
 ## **Explanation of Role**
-This is a series of quick summaries for some of my contributions to the project.
+Within the team, I took the role of a programmer. I wrote code to implement features that the designers created and refined. This is a series of quick summaries for some of my contributions to the project.
 
 #### Level Editor Extension
 I added functionality to the framework we used to build the game, to allow the objects placed using the level editor to be more configurable. This helped the designers with game balancing and freed up programmer time.
