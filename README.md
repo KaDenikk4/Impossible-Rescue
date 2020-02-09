@@ -1,5 +1,5 @@
 # **Impossible Rescue**
-![](https://toyangreen.com/images/ImpossibleRescue/Preview.jpg)
+![](https://github.com/King-Xero/ImpossibleRescue/raw/master/Images/Preview.jpg)
 
 ## **Overview**
 **Impossible Rescue** is a 2D single-screen platformer game, inspired by Manic Miner, Impossible Mission, and Shadow Complex Remastered. The game follows a freelance mercenary, ‘Danielle’, and her remote AI assistant <abbr title="Specialist Hard-linked Android for Duty in Offshore Wars">'S.H.A.D.O.W.'</abbr>, on a mission to rescue the President of Earth's daughter from a hidden security installation on Mars. The player must take control of Danielle in order to navigate a series of single-screen, theme-based environments, interacting with various platforms, avoiding/destroying enemies and 'hacking' computers in order to progress from one area to the next. The game was developed by a team of 10 people, consisting of 3 programmers, 3 artists, 2 designers, a producer and a music composer.  The game was built using C++ and the Gamer Camp [GCFramework](https://bitbucket.org/darbotron/gcframework/src/master/ "GCFramework"); a wrapper around Cocos2d-x. CodeWeb [TexturePacker](https://www.codeandweb.com/texturepacker "TexturePacker") and [PhysicsEditor](https://www.codeandweb.com/physicseditor "PhysicsEditor") were used to create spritesheets and physics data. [Ogmo Editor](https://ogmo-editor-3.github.io/ "Ogmo Editor") V2 was used to create the levels. The game runs on a PC, with the use of a Dualshock 4 controller. A video demo can be viewed [here](https://drive.google.com/open?id=1fUhpNCXA-GPNHENtkok3PveHw8dyuWJH "here").
@@ -83,7 +83,7 @@
 - Lethal environmental hazards
 
 ## **Explanation of Role**
-Within the team, I took the role of a programmer. I wrote code to implement features that the designers created and refined. This is a series of quick summaries for some of my contributions to the project.
+Within the team, I took the role of a programmer. I wrote code to implement features that the designers created and refined. This is a series of quick summaries for some of my contributions to the project. Full breakdown of code contributions can been found in [this table.](https://github.com/King-Xero/ImpossibleRescue/raw/master/Docs/CodeAttributionTable.xlsx "this table.")
 
 #### Level Editor Extension
 I added functionality to the framework we used to build the game, to allow the objects placed using the level editor to be more configurable. This helped the designers with game balancing and freed up programmer time.
